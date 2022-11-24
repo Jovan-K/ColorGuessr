@@ -25,7 +25,7 @@ button{
 }
 
 button:hover{
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.103), 0 17px 50px 0 rgba(0, 0, 0, 0.055);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.329), 0 17px 50px 0 rgba(0, 0, 0, 0.301);
 }
 
 button:active {
@@ -44,4 +44,7 @@ button:active {
     height: 20rem;
     border-radius: 15%;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.boja:hover{
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.329), 0 17px 50px 0 rgba(0, 0, 0, 0.301);
 }
