@@ -1,2 +1,3 @@
 # ColorGuessr
- Naso na net ideju
+
+Ima boja u div i onda pogodis boju 🤯
