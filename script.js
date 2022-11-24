@@ -25,16 +25,33 @@ function randomDugme(){
     }
 }
 
+function otkrij(){
+    izabrani.style.borderColor = "green";
+    netacan1.style.borderColor = "red";
+    netacan2.style.borderColor = "red";
+}
+
+function pokrij(){
+    document.getElementById("opt1").style.borderColor = "black";
+    document.getElementById("opt2").style.borderColor = "black";
+    document.getElementById("opt3").style.borderColor = "black";
+    document.getElementById("opt1").style.backgroundColor = "white";
+    document.getElementById("opt2").style.backgroundColor = "white";
+    document.getElementById("opt3").style.backgroundColor = "white";
+}
+
 function tacan(){
-    polje.style.backgroundColor = "green";
+    izabrani.style.backgroundColor = "lime";
+    otkrij();
     console.log("tacan");
     ocistiEvente();
     setTimeout(main, 1000);
 }
 
 function netacan(){
-    polje.style.backgroundColor = "red";
+    
     console.log("netacan");
+    otkrij();
     ocistiEvente()
     setTimeout(main, 1000);
 }
@@ -46,6 +63,7 @@ function ocistiEvente(){
 }
 
 function main(){
+    pokrij();
     let boja = randomBoja();
     randomDugme();
     polje.style.backgroundColor = boja;
